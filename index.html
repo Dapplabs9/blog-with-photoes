@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head><title>blog with photoes</title></head>
+    <body>
+        <h1>My Blog</h1>
+        <h4 id="label_2"></h4>
+        <link rel="stylesheet" href="style.css">
+        <div>
+        <img src="https://i.pinimg.com/originals/3e/af/66/3eaf66854bcb25cc33da74f50f537ad9.jpg">
+        <img id="image"  src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg">
+       </div>
+       <div>
+           <img id="image2"  src="https://i2.wp.com/satyawaadi.com/wp-satya/uploads/2018/03/35-Amazing-Facts-About-Nature.jpeg?fit=1200%2C799&ssl=1">
+           <img id="image3"  src="https://images.unsplash.com/photo-1546587348-d12660c30c50?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fG5hdHVyYWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80">
+       </div>
+      <script>
+          var date = new Date();
+          console.log(date);
+          document.getElementById("label_2").innerHTML = date;
+          setInterval(function(){
+              location.reload();
+          },1000)
+      </script>
+    </body>
+</html>
